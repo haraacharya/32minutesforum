@@ -1,0 +1,498 @@
+*	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul { 
+	list-style: none;
+	}
+a img {border:none}
+aside, details, figcaption, figure, footer, header, menu, nav, section {display: block}
+
+
+
+/***************************************************
+			      Global styles
+***************************************************/
+html, body{
+	width:100%;
+	height:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	margin:0 0 1px;
+	line-height: 1.5;
+	background-color:white;
+	background-image:url(../images/bg.png);
+	background-position:left top;
+	background-repeat:repeat;
+	}
+
+p 	{
+	margin-bottom:7px;
+	}
+	
+a, p a {
+	text-decoration:underline;
+	color:white;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	position:relative;
+	}
+
+	h1{
+	font-size: 60px;
+	line-height:1.6;
+	color:#663366;
+	text-transform:capitalize;
+	text-align:left;
+	margin-left:40px;
+}
+	h1 span{
+	line-height:1.7px;
+	color:black;
+	font-size:14px;
+	text-transform:none;
+	display:block;
+}
+
+h2{
+	font-size: 17px;
+	line-height:1.7;
+	color:black;
+	text-align:left;
+	width:420px;
+	padding-top:8px;
+	margin-left:40px;
+}
+
+	
+h3{
+
+	font-size: 28px;
+	line-height:1.6;
+	color:#00CCFF;
+	text-transform:capitalize;
+	text-align:left;
+	background-color:transparent;
+	padding-top:12px;
+	margin-bottom:9px;
+}
+	
+	h3 span{
+	font-size: 12px;
+	color: black;
+	text-transform:capitalize;
+	height:24px;
+	margin-top:15px;
+	text-align:left;
+	display:block;
+}
+
+	h4{
+	font-size: 18px;
+	line-height:1.7;
+	color:black;
+	text-align:left;
+	width:350px;
+	padding-top:8px;
+	margin-bottom:12px;
+	}
+	
+h4 span{
+	font-weight:bold;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FFCC33;
+	padding:8px;
+	margin-left:20px;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+/***************************************************
+			    Main containers
+***************************************************/
+
+#container{
+	height:100%;
+	position: relative;
+}
+#container{
+	position:relative;
+	width:980px;
+	margin:0 auto;
+	text-align:left;
+	background-color:transparent;
+	padding:12px;
+	}
+
+
+.group1 {
+	float: left;
+	width: 220px;
+	position: relative;
+	background:transparent;
+	padding:15px 15px 15px 0;
+	margin-bottom:10px;
+
+	}
+	
+.group2 {
+	float: left;
+	width: 550px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+.group2 .post_title{
+	color:#00CCFF;
+	font-size:16px;
+	}	
+
+.read_more{
+	font-size:14px;
+	float:right;
+	margin-top:15px;
+}
+
+
+.read_more a:hover{
+	font-size:16px;
+	}
+	
+	
+.group3 {
+	float: right;
+	width: 90px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+	}
+
+.group_form {
+	float: left;
+	position: relative;
+	background:transparent;
+	padding:15px 15px 15px 0;
+	margin-bottom:10px;
+
+	}
+	
+	
+header{
+	position: relative;
+	float:left;
+	width: 100%;
+	height:100px;
+	}
+	
+/***************************************************
+				INTRO..put an long image with rough text...
+***************************************************/	
+	
+#intro{
+	width: 960px;
+	position: relative;
+	float: left;
+	height:120px;
+	padding:10px 10px 3px 10px;
+	background:transparent;
+	margin-top:17px;
+	}
+.group_bannner_right{
+	width: 600px;
+	float:left;
+	background:transparent;
+	}
+.search{
+	float:right;
+	width:330px;
+	}
+
+
+/***************************************************
+				   HOLDERS
+***************************************************/	
+
+.holder_content {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top:15px;
+	background:transparent;
+	background: url(../images/line.png) 0 -18px no-repeat;
+	}
+
+.group_text {
+	float: left;
+	position: relative;
+	background:transparent;
+	padding:15px 15px 15px 0;
+	margin-bottom:10px;
+
+	}
+
+.group_statistics {
+	float: right;
+	position: relative;
+	background:transparent;
+	padding:15px 0 15px 15px;
+	margin-bottom:6px;
+
+	}
+
+	
+.holder_content_separator{
+	margin-bottom:20px;
+	}
+
+.holder_content a{
+	color: #CC0000;
+	background-color:transparent;
+	text-decoration:none;
+	}
+
+.holder_content a:hover{
+	color: gray;
+	}
+
+/***************************************************
+				       MENU
+***************************************************/
+
+nav{
+	position:absolute;
+	width:720px;
+	top:43px;
+	right:-12px;
+	background:transparent;
+}
+
+nav ul li{
+	float: left;
+	line-height:normal;
+}
+
+nav ul li a{
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: black;
+	text-transform:capitalize;
+	font-weight:normal;
+	display:block;	/* IE6, IE7 line height fix */
+	padding:15px;
+	background-color:transparent;
+	margin-top:0px;
+	margin-right:6px;
+    text-decoration:none;
+}
+nav ul a{
+	color: black;
+	background-color:transparent;
+	text-decoration:none;
+	}
+
+
+nav ul li a:hover{color: gray;}
+nav ul a:hover{color: gray;}
+
+/*nav ul li a.current{
+	background-color:#00CCFF;
+	padding:15px;
+	color:white;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	}*/
+/*Active page */	
+body#home #home a,
+body#createapost #createapost a,
+body#aboutus #aboutus a,
+body#howitworks #howitworks a
+	{
+	background-color:#00CCFF;
+	padding:15px;
+	color:white;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+
+/*
+#left    {width: 15%; float: left;text-align:center;background-color:#F0FFFF;margin: 3px;}
+#middle  {width: 60%; float: left;text-align:center;background-color:#F8F8FF;margin: 3px;}
+#right   {width: 15%; float: left;text-align:center;background-color:red;margin: 3px;}
+*/
+
+/***************************************************
+			      Form Styling
+***************************************************/
+form,input,select,textarea{
+margin:0; 
+padding:0; 
+}
+
+div.box {
+margin:0 auto;
+/*width:500px;*/
+top:50px;
+}
+
+div.box h2 { 
+text-transform:uppercase;
+padding:5px 0 5px 5px;
+}
+
+div.box label {
+width:100%;
+display: block;
+padding:10px 0 10px 0;
+}
+
+div.box label1 {
+width:100%;
+display: block;
+padding:10px 0 5px 0;
+}
+
+div.box label1 span {
+display: block;
+color:#969696;
+font-size:12px;
+float:left;
+width:85px;
+/*text-align:right;*/
+padding:5px 5px 0 0;
+}
+
+div.box label span {
+display: block;
+color:#969696;
+font-size:12px;
+float:left;
+width:80px;
+/*text-align:right;*/
+padding:5px 5px 0 0;
+}
+
+div.box .input_text {
+padding:5px 5px;
+width:250px;
+}
+div.box .search_text {
+padding:5px 5px;
+width:250px;
+}
+
+
+div.box .message{
+padding:7px 7px;
+width:450px;
+overflow:hidden;
+height:150px;
+}
+
+div.box .button
+{
+padding:5px 5px;
+width:100px;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+margin:0 0 10px 0;
+background:#FF4719;
+border:0px;
+top:10px;
+left:382px;
+cursor:pointer;
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+
+}
+
+div.box .button:hover{opacity:0.8;}  
+
+/***************************************************
+			END Form Styling
+***************************************************/
+
+/***************************************************
+			        FOOTER
+***************************************************/
+
+footer{
+	position:relative;
+	height:90px;
+	margin-top: -90px; /* negative value of footer height */
+	width:100%;
+	background-color:#663366;/*#00CCFF;*/
+	clear:both;
+	}
+
+footer a{
+	text-decoration:none;
+	}
+
+footer a:hover{
+	font-size:14px;
+	color:#00CCFF;
+	}
+
+#FooterTwo, #FooterTree {
+	width:50%;
+	text-align:center;
+	margin-top:25px;
+	color:white;
+}
+
+#FooterTwo{
+	float:right;
+
+}
+
+#FooterTree{
+	float:left;
+}
+
+
+/***************************************************
+				   SPECIFIC
+***************************************************/
+
+#logo{
+	position:relative;
+   	float:left;
+   	top:8px;
+	left:0px;
+	width:250px;
+	height:120px;
+	
+
+}
+
+.clearing{
+	clear: both;
+	display: inline;
+	width: 100%;
+	height: 0;
+	overflow:hidden;
+}
+

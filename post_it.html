@@ -1,0 +1,28 @@
+<!doctype html>  
+<html lang="en">
+<head>
+	<title>POST-IT NOTE</title>
+	<meta charset="utf-8">
+	<script src="js/notetoself.js"></script>
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="Screen">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/>
+</head>
+
+<body>
+	<div id="container">
+		<a href="index.php" id="logo"><img src="images/logo.png" width="221" height="100" alt="32 MINUTEs FORUM"/></a>
+		<h1><div id="postit_name"></div></h1><div id="change_name">Not You? change name</div></br>
+		<form>
+			<input type="text" id="note_text" size="40" autofocus placeholder="Type your note here" required/>
+			<input type="submit" id="addbutton" value="ADD STICKY NOTE TO SELF"/>
+		</form></br></br>
+
+		<ul id="stickies">
+
+		</ul>
+	</div>
+	</br><div id="footer">Please don't try in IE 6 & 7, as web storage is supported only on IE 8 & above.</div>
+		
+</body>
+</html>
